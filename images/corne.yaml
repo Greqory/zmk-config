@@ -1,0 +1,90 @@
+layout: {zmk_keyboard: corne}
+layers:
+  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Z, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Y, X, C, V, B, N, M, ',', ., /, '$$mdi:keyboard-esc$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$', '$$mdi:keyboard-return$$', raise, '$$mdi:apple-keyboard-option$$']
+  lower:
+  - $$mdi:keyboard-tab$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - $$mdi:backspace$$
+  - $$mdi:bluetooth-off$$
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - {type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-return$$
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  raise:
+  - $$mdi:keyboard-tab$$
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - $$mdi:backspace$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - '`'
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '~'
+  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-return$$
+  - {type: held}
+  - $$mdi:apple-keyboard-option$$
