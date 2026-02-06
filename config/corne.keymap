@@ -12,7 +12,6 @@
 #define LOWER   1
 #define RAISE   2
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -61,4 +60,3 @@
             then-layer = <3>;
         };
     };
-};
