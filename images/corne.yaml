@@ -9,19 +9,19 @@ layers:
   - '7'
   - '8'
   - '9'
-  - $$mdi:chevron-up-box$$
+  - $$mdi:transfer-up$$
   - $$mdi:cog$$
-  - $$mdi:chevron-left-box$$
-  - $$mdi:chevron-right-box$$
+  - '['
   - ''
+  - ;
   - ''
   - $$mdi:delete$$
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - ''''
   - '4'
   - '5'
   - '6'
-  - $$mdi:chevron-down-box$$
+  - $$mdi:transfer-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -29,16 +29,16 @@ layers:
   - ''
   - $$mdi:keyboard-return$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:lightning-bolt$$
+  - '&hyper'
   - '1'
   - '2'
   - '3'
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:brightness-3$$
-  - $$mdi:brightness-7$$
-  - $$mdi:lightning-bolt$$
+  - $$mdi:chevron-left-box$$
+  - $$mdi:chevron-right-box$$
+  - '&hyper'
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
   - {t: lower, type: held}
@@ -60,7 +60,7 @@ layers:
   - '='
   - '-'
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - '?'
   - '{'
   - (
   - '['
@@ -72,7 +72,7 @@ layers:
   - \
   - $$mdi:keyboard-return$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:lightning-bolt$$
+  - '&hyper'
   - ''
   - ''
   - ''
@@ -81,7 +81,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:lightning-bolt$$
+  - '&hyper'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - lower
@@ -101,7 +101,7 @@ layers:
   - $$mdi:skip-next$$
   - ''
   - ''
-  - $$mdi:camera$$
+  - Print Scrn
   - ''
   - ''
   - F4
@@ -115,7 +115,7 @@ layers:
   - ⌃⌥
   - $$mdi:apple-keyboard-control$$
   - ''
-  - $$mdi:lightning-bolt$$
+  - '&hyper'
   - F1
   - F2
   - F3
@@ -124,7 +124,7 @@ layers:
   - $$mdi:fast-forward$$
   - ''
   - ''
-  - $$mdi:lightning-bolt$$
+  - '&hyper'
   - ⌃⇧
   - $$mdi:apple-keyboard-command$$
   - {t: lower, type: held}
