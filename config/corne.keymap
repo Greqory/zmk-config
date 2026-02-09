@@ -68,14 +68,14 @@
         raise_layer {
             bindings = <
         // ╭──────────────┬───────────┬───────────┬──────────┬───────────┬─────────────╮   ╭─────────────┬───────────┬─────────────┬──────────┬──────────────┬──────────╮
-        //       `             !           @           #           $           %                 ^             &            *            +            =            ⌫
-            &kp LS(EQUAL) &kp LS(N1)  &kp RA(Q)   &kp NUHS   &kp LS(N4)  &kp LS(N5)        &kp GRAVE     &kp LS(N6)  &kp LS(RBKT)  &kp RBKT   &kp LS(N0)      &kp BSPC
+        //      ?              !           @           #           $           %                 ^             &            *            +            =            ⌫
+            &kp LS(MINUS)  &kp LS(N1)  &kp RA(Q)   &kp NUHS   &kp LS(N4)  &kp LS(N5)        &kp GRAVE     &kp LS(N6)  &kp LS(RBKT)  &kp RBKT   &kp LS(N0)      &kp BSPC
         // ├──────────────┼───────────┼───────────┼──────────┼───────────┼─────────────┤   ├─────────────┼───────────┼─────────────┼──────────┼──────────────┼──────────┤
-        //     Ctrl            ?           {            [         (            /                  \             )          ]            }                       Ctrl
-            &kp LCTRL      &kp LS(MINUS) &kp RA(N7) &kp RA(N8)  &kp LS(N8) &kp LS(N7)       &kp RA(MINUS)  &kp LS(N9)  &kp RA(N9)    &kp RA(N0)  &none      &kp RCTRL
+        //     Ctrl           <           {            [         (            /                  \             )          ]            }            >            Ctrl
+            &kp LCTRL      &kp NUBS      &kp RA(N7) &kp RA(N8)  &kp LS(N8) &kp LS(N7)       &kp RA(MINUS)  &kp LS(N9)  &kp RA(N9)    &kp RA(N0) &kp LS(NUBS)   &kp RCTRL
         // ├──────────────┼───────────┼───────────┼──────────┼───────────┼─────────────┤   ├─────────────┼───────────┼─────────────┼──────────┼──────────────┼──────────┤
-        //    Shift         Hyper                                              '                 "            _                                     Hyper       Shift
-            &kp LSHFT     &hyper      &none       &none      &none        &kp LS(NUHS)        &kp LS(N2)   &kp LS(FSLH)  &none        &none      &hyper        &kp RSHFT
+        //    Shift         Hyper                                  `           '                 "            _                                     Hyper       Shift
+            &kp LSHFT     &hyper      &none       &none      &kp LS(EQUAL) &kp LS(NUHS)        &kp LS(N2)   &kp LS(FSLH)  &none        &none      &hyper        &kp RSHFT
         // ╰──────────────┴───────────┴───────────┼──────────┼───────────┼─────────────┤   ├─────────────┼───────────┼─────────────┼──────────┴──────────────┴──────────╯
         //                                            GUI       Lower      Ctrl+Space         Space         Raise       RAlt
                                                   &kp LGUI   &mo 1       &kp LC(SPACE)      &kp SPACE     &mo 2       &kp RALT
