@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Z, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', Y, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
+  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
+    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
     '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
   lower:
   - $$mdi:keyboard-esc$$
@@ -47,41 +47,41 @@ layers:
   - raise
   - $$mdi:apple-keyboard-option$$
   raise:
-  - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - +
-  - '='
-  - '-'
+  - ''
+  - AltGr+Q
+  - AltGr+7
+  - AltGr+8
+  - AltGr+9
+  - AltGr+0
+  - AltGr+|
+  - AltGr+-
+  - AltGr+=
+  - AltGr+}
+  - AltGr+{
+  - ''
   - $$mdi:apple-keyboard-control$$
-  - '?'
-  - '{'
-  - (
-  - '['
-  - ''''
-  - '"'
-  - ']'
-  - )
-  - '}'
-  - \
+  - AltGr+|
+  - AltGr+,
+  - AltGr+.
+  - AltGr+-
+  - AltGr+8
+  - AltGr+9
+  - AltGr+7
+  - AltGr+0
+  - AltGr+'
+  - AltGr+;
   - $$mdi:keyboard-return$$
   - $$mdi:apple-keyboard-shift$$
-  - '&hyper'
-  - ''
-  - ''
-  - ''
-  - ''
-  - _
-  - ''
-  - ''
-  - ''
-  - '&hyper'
+  - AltGr+1
+  - AltGr+2
+  - AltGr+3
+  - AltGr+4
+  - AltGr+5
+  - AltGr+6
+  - AltGr+1
+  - AltGr+2
+  - AltGr+3
+  - AltGr+4
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - lower
