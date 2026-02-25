@@ -1,7 +1,7 @@
 /*
  * Wired split UART overlay for right (peripheral) half.
- * Half-duplex UART via shared TRRS data line on P0.08.
- * Both TX and RX on the same pin with open-drain to avoid bus contention.
+ * Unidirectional: TX on P0.08 (TRRS data) sends to central.
+ * RX on P0.06 (dummy, not connected to TRRS).
  */
 
 #include <dt-bindings/pinctrl/nrf-pinctrl.h>
@@ -17,16 +17,14 @@
         /delete-node/ group2;
         group1 {
             psels = <NRF_PSEL(UART_TX, 0, 8)>,
-                    <NRF_PSEL(UART_RX, 0, 8)>;
-            /* Open-drain TX so the remote side can also drive the shared line */
-            nordic,drive-mode = <NRF_DRIVE_S0D1>;
+                    <NRF_PSEL(UART_RX, 0, 6)>;
             bias-pull-up;
         };
     };
     uart0_sleep: uart0_sleep {
         group1 {
             psels = <NRF_PSEL(UART_TX, 0, 8)>,
-                    <NRF_PSEL(UART_RX, 0, 8)>;
+                    <NRF_PSEL(UART_RX, 0, 6)>;
             low-power-enable;
         };
     };
@@ -44,6 +42,5 @@
     wired_split {
         compatible = "zmk,wired-split";
         device = <&uart0>;
-        half-duplex;
     };
 };
