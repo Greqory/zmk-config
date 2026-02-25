@@ -22,12 +22,10 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n CONFIG_ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT=y CONFIG_ZMK_SPLIT_WIRED=y
     artifact-name: nano_corne_left
 
   - board: nice_nano_v2
     shield: corne_right
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n CONFIG_ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT=y CONFIG_ZMK_SPLIT_WIRED=y
     artifact-name: nano_corne_right
 
   # reset_settings
