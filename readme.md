@@ -4,6 +4,11 @@ This this my personal [zmk](https://github.com/zmkfirmware/zmk) config for my
 [corne keyboard](https://github.com/foostan/crkbd).
 I have the Corne Chocolate v2.1 board, and some nice 3d printed [Cases](https://www.printables.com/model/624445-tented-corne-keyboard-case).
 
+## The Keyboard
+
+![typeractive_kb](https://github.com/Greqory/zmk-config/blob/main/images/kb.jpg)
+
+
 I initialy cloned DarrenVictoriano`s [Reop](https://github.com/DarrenVictoriano/zmk-config), but I ended up changing a lot!
 
 Special about my build:
@@ -32,7 +37,7 @@ generated using
 
 - ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
 - ⚙️ : system settings (`cmd` + `shift` + `J`)
-- 📷 : `printscreen` (linux) / `F13` (macos)
+- 📷 : `printscreen` (linux)
 - 🖥️ : TTY for linux (`ctrl` + `cmd` + `F2`)
 - `⌘⌥⎵` : homerow / hints
 - `⌃⎵` : tmux leader key

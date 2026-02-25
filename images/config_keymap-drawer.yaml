@@ -332,10 +332,10 @@ parse_config:
         "&kp LSHFT": $$mdi:apple-keyboard-shift$$
         "&kp LCTRL": $$mdi:apple-keyboard-control$$
         "&kp RCTRL": $$mdi:apple-keyboard-control$$
-        "&kp LGUI": $$mdi:apple-keyboard-command$$
-        "&kp RGUI": $$mdi:apple-keyboard-command$$
-        "&kp LALT": $$mdi:apple-keyboard-option$$
-        "&kp RALT": $$mdi:apple-keyboard-option$$
+        "&kp LGUI": $$mdi:penguin$$
+        "&kp RGUI": $$mdi:penguin$$
+        "&kp LALT": ALT
+        "&kp RALT": ALT
         "&kp RSHFT": $$mdi:apple-keyboard-shift$$
         "&kp BSPC": $$mdi:backspace$$
     sticky_label: sticky
@@ -433,20 +433,20 @@ parse_config:
     zmk_keycode_map:
         # Modifiers
         LCTRL: $$mdi:apple-keyboard-control$$
-        LALT: $$mdi:apple-keyboard-option$$
+        LALT: ALT
         LSHIFT: $$mdi:apple-keyboard-shift$$
         LSHFT: $$mdi:apple-keyboard-shift$$
         LCMD: $$mdi:apple-keyboard-command$$
-        LGUI: $$mdi:apple-keyboard-command$$
+        LGUI: $$mdi:penguin$$
         RCTRL: $$mdi:apple-keyboard-control$$
-        RALT: $$mdi:apple-keyboard-option$$
+        RALT: ALT
         RSHIFT: $$mdi:apple-keyboard-shift$$
         RSHFT: $$mdi:apple-keyboard-shift$$
-        RCMD: $$mdi:apple-keyboard-command$$
-        RGUI: $$mdi:apple-keyboard-command$$
+        RCMD: $$mdi:apple-keyboard-control$$
+        RGUI: $$mdi:penguin$$
 
         # combo
-        LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$
+        &hyper: $$mdi:lightning-bolt$$
         LS(LC(LALT)): $$mdi:triangle$$ # Meh
         LC(SPACE): "⌃⎵"
         RC(RS(TAB)): "⌃⇧⇥"
