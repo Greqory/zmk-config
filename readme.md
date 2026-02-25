@@ -13,7 +13,8 @@ Special about my build:
    - no lag, bad connection or sleepy keyboard
 - Special German Layout
    - de-DE on OS level
-
+   - special characters with ALT+<number> for maximum compability
+     
 The firmware is built to
 work with the following devices:
 
@@ -26,8 +27,7 @@ These are the keymaps and layers defined in this config. The keymaps were
 generated using
 [Nick Coutsos's Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
 
-![keymaps](https://github.com/Greqory/zmk-config/blob/master/images/corne.svg)
-
+![keymaps](https://github.com/Greqory/zmk-config/blob/main/images/corne.svg)
 **Macros**
 
 - ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
